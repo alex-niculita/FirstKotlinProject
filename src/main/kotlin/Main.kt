@@ -1,3 +1,9 @@
+const val name = "Alex"
+val greeting = null
+
 fun main() {
-    println("Hello World!")
+    val s = if(greeting!=null) greeting else "Hi"
+
+
+    println("$s $name")
 }
